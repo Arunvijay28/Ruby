@@ -2,11 +2,13 @@ def say(val)
     print "#{val}\n"
 end
 
-a=[] # new array can be created using [] or Array.new(size)
+a=[]                    # new array can be created using [] or Array.new(size)
 say(a)
 
 say(a.empty?)
 
+a<<5
+say(a)
 b=Array.new(5)
 b<<5
 b<<3
